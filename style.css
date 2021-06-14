@@ -8,6 +8,7 @@ body{
 }
 h1{
     text-align: center;
+   font-family: "Vivaldi";
 }
 img{
     border-radius: 15px;
@@ -20,4 +21,11 @@ div{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+@font-face {
+   font-family: Vivaldi;
+   font-style: normal;
+   font-weight: normal;
+   src: url(VIVALDI0.eot);
 }
