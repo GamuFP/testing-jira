@@ -1,0 +1,14 @@
+
+body{
+    margin: 0;
+    background: linear-gradient(0.15turn, #b8ff46, #ebf8e1, #01c4ff);
+}
+img{
+    border-radius: 15px;
+    margin: 15px;
+
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
