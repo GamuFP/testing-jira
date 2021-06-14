@@ -1,14 +1,23 @@
 
 body{
     margin: 0;
-    background: linear-gradient(0.15turn, #b8ff46, #ebf8e1, #01c4ff);
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0.15turn, #b8ff46, #ebf8e1, #01c4ff) no-repeat;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
 }
 img{
     border-radius: 15px;
     margin: 15px;
 
 }
+
 div{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
