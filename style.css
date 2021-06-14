@@ -14,6 +14,40 @@ img{
     margin: 15px;
 
 }
+cube{
+
+    width: 2%;
+    height: 2%;
+    position: absolute;
+    background-color: aqua;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    animation: salvapantallas 10s linear infinite;
+}
+
+@keyframes salvapantallas {
+    0%{
+        top: 0%;
+        left: 0%;
+    }
+    25%{
+        top: 100%;
+        left: 50%;
+    }
+    50%{
+        top: 0%;
+        left: 100%;
+    }
+    75%{
+        top: 100%;
+        left: 50%;
+    }
+    100%{
+        top: 0%;
+        left: 0%;
+    }
+}
 
 div{
     display: flex;
